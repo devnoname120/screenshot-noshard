@@ -1,7 +1,7 @@
 # Screenshot NoShard
 
 `screenshot_noshard.suprx` is a taiHEN user plugin for PS Vita retail firmware
-3.60 through 3.73 and the corresponding testkit/devkit releases available in
+3.60 through 3.74 and the corresponding testkit/devkit releases available in
 the firmware archive. It writes screenshots directly below:
 
 ```text
@@ -46,6 +46,7 @@ The plugin selects a profile using the loaded `SceAvMediaService` module NID:
 | Retail | 3.71 | `0x3B8766B7` |
 | Retail | 3.72 | `0x42335CC5` |
 | Retail | 3.73 | `0x1E0D7085` |
+| Retail | 3.74 | `0x9479D990` |
 | Testkit | 3.60 (`3.600.011`) | `0x3FE87731` |
 | Testkit | 3.65 (`3.650.011`) | `0x4DDE4533` |
 | Testkit | 3.67 (`3.670.011`) | `0x787F0022` |
@@ -66,10 +67,6 @@ For the selected profile, the plugin validates the live instruction contexts
 for the path branch, branch destination, promotion scheduler, and completion
 adapter before installing anything. Only relocated `MOVW`/`MOVT` immediate
 fields are masked. An unknown module NID or any byte mismatch fails closed.
-
-The supplied decrypted archive does not contain retail 3.74 or later
-testkit/devkit modules, so builds not listed above are not accepted by
-association with a neighboring firmware.
 
 ## taiHEN configuration
 

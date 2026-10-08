@@ -174,6 +174,7 @@ static const FirmwareProfile g_profiles[] = {
 	RETAIL_PROFILE(0x3B8766B7U), /* 3.71 */
 	RETAIL_PROFILE(0x42335CC5U), /* 3.72 */
 	RETAIL_PROFILE(0x1E0D7085U), /* 3.73 */
+	RETAIL_PROFILE(0x9479D990U), /* 3.74 */
 
 	/* Testkit */
 	NONRETAIL_PROFILE(0x3FE87731U), /* 3.600.011 */
