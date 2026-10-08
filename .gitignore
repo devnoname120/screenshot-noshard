@@ -1,0 +1,12 @@
+# Generated CMake build directories
+/build/
+/build-*/
+
+# Local deployment and hardware-test evidence
+/deploy/
+
+# User-local CMake configuration
+/CMakeUserPresets.json
+
+# macOS filesystem metadata
+.DS_Store
